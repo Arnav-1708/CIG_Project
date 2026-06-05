@@ -68,3 +68,10 @@ class Share(SQLModel, table=True):
     media_id: int = Field(foreign_key="media.id")
     shared_by: str
     shared_at: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))
+
+class Tag(SQLModel, table=True):
+    id: Optional[int] = Field(default=None, primary_key=True)
+    media_id: int = Field(foreign_key="media.id")
+    tagged_username: str
+    tagged_by: str
+    tagged_at: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))
