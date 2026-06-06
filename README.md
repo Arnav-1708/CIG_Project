@@ -65,3 +65,4 @@ uvicorn main:app --reload
 ## API Docs
 
 Auto-generated at `http://127.0.0.1:8000/docs` when server is running.
+

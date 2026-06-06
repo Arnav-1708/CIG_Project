@@ -1,1 +1,7 @@
 .env
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+git_setup.sh
+*.png
