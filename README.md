@@ -64,7 +64,7 @@ uvicorn main:app --reload
 - CLIP downloads ~600MB on first run, cached after that
 - dlib can be painful to install on Windows — recommend using WSL or grabbing a prebuilt wheel
 - Frontend is planned, ran out of time this week
-- Deployment pending due to heavy AI dependencies (CLIP 600MB + dlib). Full demo in video above.
+- Deployment pending due to heavy AI dependencies (CLIP 600MB + dlib). Full demo in video.
 
 ## API Docs
 
