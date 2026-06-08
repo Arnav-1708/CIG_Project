@@ -4,6 +4,9 @@ Backend API for managing club event photos and videos. Built with FastAPI + SQLi
 
 No frontend yet — all endpoints are accessible via Swagger UI at `/docs`.
 
+## GitHub
+[github.com/Arnav-1708/CIG_Project](https://github.com/Arnav-1708/CIG_Project)
+
 ## Features
 
 - Event creation and management (Admin only)
@@ -61,8 +64,11 @@ uvicorn main:app --reload
 - CLIP downloads ~600MB on first run, cached after that
 - dlib can be painful to install on Windows — recommend using WSL or grabbing a prebuilt wheel
 - Frontend is planned, ran out of time this week
+- Deployment pending due to heavy AI dependencies (CLIP 600MB + dlib). Full demo in video above.
 
 ## API Docs
 
 Auto-generated at `http://127.0.0.1:8000/docs` when server is running.
 
+## Project Built By
+Arnav[EE'29] · IIT Roorkee · June 2026
